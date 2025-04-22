@@ -1,0 +1,82 @@
+/* Общие стили для всего приложения */
+.root {
+    -fx-background-color: #f4f4f9;
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 14px;
+}
+
+/* Контейнер для ввода информации */
+.input-container {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+    -fx-alignment: top-left;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 5, 0.2, 2, 2);
+}
+
+/* Контейнер для таблицы */
+.table-container {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 5, 0.2, 2, 2);
+}
+
+/* Параметры для полей ввода */
+.text-field, .text-area, .date-picker, .combo-box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+}
+
+/* Кнопки */
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0.3, 2, 2);
+}
+
+/* Изменения при наведении и нажатии */
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+.button:pressed {
+    -fx-background-color: #388e3c;
+}
+
+/* Стиль для таблицы */
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+}
+
+/* Стиль для колонок таблицы */
+.table-column {
+    -fx-alignment: center-left;
+    -fx-font-size: 14px;
+}
+
+/* Выравнивание элементов в HBox */
+.hbox {
+    -fx-spacing: 20px;
+}
+
+.input-container {
+    -fx-padding: 20;
+}
+
+.table-container {
+    -fx-padding: 20;
+}
